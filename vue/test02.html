@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./vue.js"></script>
+</head>
+<body>
+   
+    <div id="app" >
+        <div v-for='todo in todos'>
+            {{ todo.text }}
+        </div>
+    </div>
+
+    <div id='app1'>
+        <ol >
+            <todo-item v-for='item in list' v-bind:todo='item' v-bind::key="item.id">
+
+            </todo-item>
+        </ol>
+       
+    </div>
+    <div id="app2">
+        <p>{{ foo }}</p>
+        <!-- 这里的 `foo` 不会更新！ -->
+        <button v-on:click="foo = '123'">lll</button>
+    </div>
+    <input type="checkbox" id="checkbox" v-model="checked">
+    <label for="checkbox">{{ checked }}</label>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                myData: 'hhhh',
+                todos: [
+                    { text: '学习 JavaScript' },
+                    { text: '学习 Vue' },
+                    { text: '整个牛项目' }
+                ]
+            }
+        })
+        Vue.component('todo-item', {
+            props:['todo'],
+            template: '<li>{{ todo.text }}</li>'
+        })
+        var app1 = new Vue({
+            el: '#app1',
+            data: {
+                list:[
+                    {id: 0, text: '蔬菜'},
+                    {id: 1, text: '奶酪'},
+                    {id: 2, text: '随便1'},
+                ]
+            }
+        })
+        var obj = {
+            foo:'bar'
+        }
+        Object.freeze(obj)
+        var app2 = new Vue({
+            el: '#app2',
+            data: obj,
+        })
+    </script>
+</body>
+</html>

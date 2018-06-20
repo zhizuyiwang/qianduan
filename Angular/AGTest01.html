@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+ <script src="./angular.min.js"></script>   <script src="./angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="myCtrl">
+        <p>现在时间是:</p>
+        <h1>{{ theTime | reverse}} {{text | myFormat}} {{test|myFormat}} </h1>
+    </div>
+    <script>
+        var app = angular.module('myApp',[])
+        app.controller('myCtrl',function($scope,$interval,hexafy){
+            $scope.theTime = new Date().toLocaleTimeString()
+            $scope.test = 123
+            $interval(function(){
+                $scope.theTime = new Date().toLocaleTimeString()
+            },1000)
+
+            $scope.text = hexafy.myFunc(13)
+        })
+        app.service('hexafy',function(){
+            this.name = 'xiaoming'
+            this.myFunc = function(x){
+                return x.toString(16)
+            }
+            this.myFunc2 = function(x){
+                return x
+            }
+            this.myFunc3 = function(){
+                return this.name
+            }
+        })
+
+        app.filter('reverse',function(){
+            return function(text){
+                return text.split("").reverse().join("")
+            }
+        })
+        app.filter('myFormat',['hexafy',function(hexafy) {
+            return function(text){
+                return hexafy.myFunc(text)
+            }
+        }])
+    </script>
+</body>
+</html>
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  
+    <style>
+        div{
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background-color: lightblue;
+            transition: all linear 0.5s
+        }
+        .ng-hide{
+            height: 0;
+            width: 0;
+            top: -200px;
+            left: 200px;
+            background-color: transparent
+        }
+       
+    </style>
+    <script src="https://cdn.bootcss.com/angular.js/1.4.6/angular.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular.js/1.4.6/angular-animate.min.js"></script>
+</head>
+<body ng-app="myApp">
+    <h1>隐藏DIV：<input type="checkbox" ng-model="myCheck"/></h1>
+    <div ng-hide="myCheck"></div>
+    <script>
+        var app = angular.module('myApp',['ngAnimate'])
+    </script>
+</body>
+</html>

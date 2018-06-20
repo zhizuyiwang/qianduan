@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+    <h2>我的备忘录</h2>
+    <form ng-submit="todoAdd()">
+        <input type="text" size="50" ng-model="todoInput" placeholder="新增"/>
+        <input type="submit" value="新增"/>
+    </form>
+    <br>
+    <div ng-repeat="x in todoList">
+        <input type="checkbox" ng-model="x.done"/><span ng-bind="x.todoText"></span>
+    </div>
+    <p><button ng-click="remove()">删除记录</button></p>
+    
+    <script>
+        var app = angular.module('myApp',[])
+        app.controller('myCtrl',function($scope){
+            $scope.todoList = [{todoText:'Clean House', done: false}]
+            $scope.todoAdd = function(){
+                $scope.todoList.push({todoText: $scope.todoInput, done: false})
+                $scope.todoInput = ''
+            }
+            $scope.remove = function(){
+                var oldList = $scope.todoList
+                $scope.todoList = []
+                angular.forEach(oldList,function(x){
+                    if(!x.done) $scope.todoList.push(x)
+                });
+            }
+        })
+    </script>
+</body>
+</html>
