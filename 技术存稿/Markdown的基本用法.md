@@ -43,13 +43,18 @@
 - 撤销 Ctrl + Z
 - 重做 Ctrl + Y
 
+		
 
 
 [https://www.cnblogs.com/hnrainll/p/3514637.html](https://www.cnblogs.com/hnrainll/p/3514637.html "链接")
 
+		【1】 &ensp;或&#8194; //半角
+	【2】 &emsp;或&#8195; //全角
+	【3】 &nbsp;或&#160;
 
-
-
+【1】 &ensp;或&#8194; //半角
+【2】 &emsp;或&#8195; //全角
+【3】 &nbsp;或&#160;
 <pre name="code" class="c++" > 
 
 </pre>
