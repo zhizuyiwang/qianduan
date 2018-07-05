@@ -121,4 +121,10 @@ Person()函数取代了createPerson()函数，Person()中的代码除了与creat
 #<font color="green">三、理解JavScript的继承<font>
 #<font color="green">四、理解prototype属性，编写类的扩展方法</font>
 
- 
+
+
+#<font color="green">五、js中的`__proto__`和prototype</font>
+
+1. [https://blog.csdn.net/ligang2585116/article/details/53522741](https://blog.csdn.net/ligang2585116/article/details/53522741 "ww")
+2. [https://www.cnblogs.com/libin-1/p/6014925.html](https://www.cnblogs.com/libin-1/p/6014925.html)
+3. [https://www.zhihu.com/question/34183746](https://www.zhihu.com/question/34183746)
