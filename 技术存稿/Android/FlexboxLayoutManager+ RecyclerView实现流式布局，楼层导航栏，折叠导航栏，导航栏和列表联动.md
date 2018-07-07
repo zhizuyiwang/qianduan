@@ -1,0 +1,2 @@
+#FlexboxLayoutManager+ RecyclerView实现流式布局，楼层导航栏，折叠导航栏，导航栏和列表联动
+- FlexboxLayoutManager+ RecyclerView实现流式布局，楼层导航栏，折叠导航栏，导航栏和列表联动<br>[https://blog.csdn.net/qiushi_1990/article/details/80690519](https://blog.csdn.net/qiushi_1990/article/details/80690519 "FlexboxLayoutManager+ RecyclerView实现流式布局，楼层导航栏，折叠导航栏，导航栏和列表联动")
