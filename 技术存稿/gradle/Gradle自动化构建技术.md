@@ -1,4 +1,4 @@
-#Gradle基本概念
+#开端：Gradle基本概念
 ##1. 领域特定语言DSL介绍
 
 ##2. groovy讲解之groovy初探
@@ -34,10 +34,13 @@ groovy特性
 3. 在电脑中配置groovy环境变量（classpath环境变量）
 ##2. IntelliJ IDEA开发工具安装及groovy环境配置
 #二、Gradle核心语法
-- groovy基础语法
-- groovy闭包讲解
-- groovy数据结构
-- groovy面向对象
+##1、groovy基础语法
+- groovy中的变量包括变量的类型和变量的定义。
+- 变量的类型有基本类型和对象类型，其实都是对象类型，可以说groovy中并不存在基本类型
+- 变量的定义包括强类型定义方式和弱类型def定义方式
+##2、groovy闭包讲解
+##3、groovy数据结构
+##4、groovy面向对象
 
 
 
