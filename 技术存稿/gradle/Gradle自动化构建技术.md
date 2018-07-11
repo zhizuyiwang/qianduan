@@ -44,7 +44,7 @@ groovy特性
  **字符串的讲解**
 
 - String：和java一样的通用字符串<br>
-1、使用单引号声明字符串：def name1 = '啊\'\'single' <br>
+1、使用单引号声明字符串：def name1 = '啊\'\'single'。注意\ 表示转义字符 <br>
 2、使用三个引号声明字符串： def name2 = ''' jj jjjjkk  '''<br>
 3、使用两个引号定义字符串，也被称为可扩展字符串，如：
 
@@ -52,10 +52,9 @@ groovy特性
 		def KK = "小明是 ${job}"
 		println KK
 		println KK.class//class org.codehaus.groovy.runtime.GStringImpl
-可以看到只要有扩展表达式的普通Java字符串定义的是Groovy的字符串实现类
-	
-
+可以看到只要有扩展表达式的普通Java字符串定义的是Groovy的字符串实现类<br>	
 4、区别：单引号的字符串没有格式，三个单引号定义的字符串有格式，如：
+	
 	
 - GString<br>
 1.常用三种定义方式<br>
