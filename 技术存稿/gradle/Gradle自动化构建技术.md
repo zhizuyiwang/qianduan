@@ -35,9 +35,35 @@ groovy特性
 ##2. IntelliJ IDEA开发工具安装及groovy环境配置
 #二、Gradle核心语法
 ##1、groovy基础语法
+**变量的类型和声明：**
+
 - groovy中的变量包括变量的类型和变量的定义。
 - 变量的类型有基本类型和对象类型，其实都是对象类型，可以说groovy中并不存在基本类型
 - 变量的定义包括强类型定义方式和弱类型def定义方式
+
+ **字符串的讲解**
+
+- String：和java一样的通用字符串<br>
+1、使用单引号声明字符串：def name1 = '啊\'\'single' <br>
+2、使用三个引号声明字符串： def name2 = ''' jj jjjjkk  '''<br>
+3、使用两个引号定义字符串，也被称为可扩展字符串，如：
+
+		def job = "Student"
+		def KK = "小明是 ${job}"
+		println KK
+		println KK.class//class org.codehaus.groovy.runtime.GStringImpl
+可以看到只要有扩展表达式的普通Java字符串定义的是Groovy的字符串实现类
+	
+
+4、区别：单引号的字符串没有格式，三个单引号定义的字符串有格式，如：
+	
+- GString<br>
+1.常用三种定义方式<br>
+- 
+2.新增操作符<br>
+3.新增API讲解<br>
+
+
 ##2、groovy闭包讲解
 ##3、groovy数据结构
 ##4、groovy面向对象
