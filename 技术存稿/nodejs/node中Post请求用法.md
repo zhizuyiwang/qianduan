@@ -85,7 +85,64 @@ post.js
 
 原生写POST处理，比较复杂，要写两个监听，文件上传业务比较难写。所以，用第三方模块：formidable。<br>
 
+formidable的用法：<br>
 
+一个完整的上传图片小实例：
+
+	var http = require("http")
+	var formidable = require("formidable")//文件上传的模块
+	var util = require("util")
+	var fs = require("fs")
+	var sd = require("silly-datetime")//格式化时间的模块
+	var path = require("path")
+
+	http.createServer(function (req,res) {
+	    if (req.url == "/dopost" && req.method.toLowerCase() == "post") {
+
+	        var form = new formidable.IncomingForm()
+
+	        //设置文件上传的目录路径
+	        form.uploadDir = "./static/uploads"
+
+	        form.parse(req, function (err, fields, files) {
+
+	            //所有的文本域、单选项，都在fields存放
+	            //所有的文件域，files
+	            console.log(fields)
+	            console.log(files)
+	            console.log(util.inspect({fields: fields,files:files}))
+
+	            //时间，使用了第三方模块，silly-datetime
+	            var ttt = sd.format(new Date(), 'YYYYMMDDHHmmss');
+
+	            var ran = parseInt(Math.random() * 89999 + 10000);
+
+	            var extName = path.extname(files.tupian.name);
+
+	            console.log("__dirname",__dirname)//当前js文件所在的绝对路径
+
+	            //执行改名
+	            var oldPath = __dirname + "/" + files.tupian.path;
+
+	            //新的路径由三个部分组成：时间戳、随机数、拓展名
+	            var newPath = __dirname + "/static/uploads/format/" + ttt + ran + extName;
+
+	            console.log('old',oldPath)
+	            console.log('newPath',newPath)
+
+	            //改名
+	            fs.rename(oldPath,newPath,function(err){
+	                if(err){
+	                    throw Error("改名失败");
+	                }
+	                res.writeHead(200, {'content-type': 'text/html;charset=UTF8'});
+	                res.end("成功");
+	            });
+	
+	        })
+	    }
+	}).listen(80,"127.0.0.1")
+	
 
 
 
