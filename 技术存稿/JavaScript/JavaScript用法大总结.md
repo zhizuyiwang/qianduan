@@ -1,4 +1,5 @@
 ##1、可以直接在JS文件中写<font color=red>this.变量名，不需要提前声明变量，如果this.变量名</font>存在则取存在的值，如果不存在则是未定义——undefined
+
 ##2、js判断对象是否为空对象的几种方法
 - 1.将json对象转化为json字符串，再判断该字符串是否为"{}"
 
@@ -30,3 +31,12 @@
 		var data = {};
 		var arr = Object.keys(data);
 		console.log(arr.length == 0);//true
+
+- 5.jquery的isEmptyObject方法<br>
+
+此方法是jquery将2方法(for in)进行封装，使用时需要依赖jquery
+
+	
+		var data = {};
+		var b = $.isEmptyObject(data);
+		console.log(b);//true
