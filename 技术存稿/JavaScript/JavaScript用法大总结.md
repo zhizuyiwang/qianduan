@@ -25,6 +25,7 @@
 		  10: '十',
 		}
 		numMap[1]取的值就是'一'
+3. 可以用来遍历Json表示的大集合，获取Json中的数据信息
 
 ##3、js判断对象是否为空对象的几种方法
 - 1.将json对象转化为json字符串，再判断该字符串是否为"{}"
@@ -66,4 +67,73 @@
 		var data = {};
 		var b = $.isEmptyObject(data);
 		console.log(b);//true
+##4、js判断字符串是否全是空格、是否包含空格的方法
+- **判断是否全是空格**
+ 
+		function isKongGe(str) {
+	    	if (str.replace(/\ +/g,'').length ==0){//把所有的空格替换成""
+		        return true
+		    }
+		    return false
+		}
+		console.log(isKongGe("   "))//true
+		console.log(isKongGe("  3 "))//false
+- **判断是否包含空格**
+		
+		//为true表示有空格；为false表示没有空格
+		function isContainKG(str) {
+		    if (str.indexOf(" ") == -1) {
+		        return false
+		    }
+		    return true
+		}
 
+
+##5、js去掉字符串中的连续空格和连续换行，只留一个空格和换行
+
+		 //去掉连续空格,只留一个空格。并且去掉连续换行，只留一个换行, 注意'/\s +/g'会把换行都去掉
+      	var filterContent1 = finallyGoodsArr[i].commentContent.replace(/\ +/g, '').replace(/[\r\n]+/g, '')
+
+##6、js中英文混合字符串截取部分字符串
+
+JS字符串长度判断，超出进行自动截取（支持中文）<br>[https://www.cnblogs.com/lori/p/3907960.html](https://www.cnblogs.com/lori/p/3907960.html "JS~字符串长度判断，超出进行自动截取（支持中文）")
+	
+
+		function sub(str, n) {
+		  var r = /[^\x00-\xff]/g;
+		  if (str.replace(r, "mm").length <= n) { return str; }
+		  var m = Math.floor(n / 2);
+		  for (var i = m; i < str.length; i++) {
+		    if (str.substr(0, i).replace(r, "mm").length >= n) {
+		      return str.substr(0, i) + "...";
+		    }
+		  }
+		  return str;
+		}
+
+##7、js中英文混合字符串换行、截取多个字符串
+		//换行
+		function changeLine(str, n) {
+		  var r = /[^\x00-\xff]/g
+		  var arrStr = []
+		  var difValue = 0
+		  if (str.replace(r, "mm").length <= n) {
+		    arrStr.push(str)
+		    return arrStr;
+		  }
+		  for (var i = 0; i < str.length; i++) {
+		    if (str.slice(0 + difValue, str.length).replace(r, "mm").length < n) {
+		      var temStr = str.slice(0 + difValue, str.length)
+		      if (temStr.replace(/\ +/g, '').replace(/[\r\n]+/g, '').length != 0) {
+		        arrStr.push(temStr)
+		      }
+		      return arrStr
+		    }
+		    if (str.slice(0 + difValue, i + 1).replace(r, "mm").length >= n) {
+		      var temStr = str.slice(0 + difValue, i + 1)
+		      arrStr.push(temStr)
+		      difValue = i + 1
+		    }
+		  }
+		  return arrStr;
+		}
