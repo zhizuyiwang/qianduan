@@ -142,8 +142,19 @@ formidable的用法：<br>
 	        })
 	    }
 	}).listen(80,"127.0.0.1")
-	
+
+
 **注意，这里有一个坑，就是在给文件该名称时， 新名称中有一个新的文件夹： format, ````var newPath = __dirname + "/static/uploads/format/" + ttt + ran + extName;````切记要先把文件夹format手动创建出来后才能改名，否则不会成功。所谓该名称也就是剪切，把原来路径下的文件剪切到新的路径下去**
+
+
+
+##三、模板引擎
+后台模板，著名的有两个，第一个叫做ejs； 第二个叫做jade。
+
+1. ejs<br>
+Embedded JavaScript templates
+
+2. jade
 
 
 
