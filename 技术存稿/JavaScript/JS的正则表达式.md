@@ -1,0 +1,2 @@
+- 一次记住js的6个正则方法<br>[https://blog.csdn.net/vM199zkg3Y7150u5/article/details/79338818](https://blog.csdn.net/vM199zkg3Y7150u5/article/details/79338818 "一次记住js的6个正则方法")
+- 廖雪峰的网站<br>[https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386832260566c26442c671fa489ebc6fe85badda25cd000](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386832260566c26442c671fa489ebc6fe85badda25cd000 "廖雪峰的网站")

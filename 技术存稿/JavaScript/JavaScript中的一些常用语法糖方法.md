@@ -174,8 +174,10 @@ map(): 创建一个新的数组，其中每一个元素由调用数组中的每�
 2. map()会分配内存空间存储新数组并返回，forEach()不会返回数据。
 3. forEach()允许callback更改原始数组的元素。map()返回新的数组。
 #5.	for...in...和for...of...的用法
+###for...in...
 for...in...对应于一个对象的每个属性，或一个数组的每个元素，执行一个或多个语句。用来遍历数组和对象，基本用法： for (variable in [object | array]) 参数variable 必选项，是一个变量，它可以是 object 的任一属性名或 array 的任一下标，**注意，当是一个array的下标时，它是字符串类型，并且当是object的属性名时也是字符串。** object, array 可选项。要在其上遍历的对象或数组。<br><br>
-说明：在循环的每次迭代前，variable 被赋予 object 的下一个属性或 array 的下一个元素下标。然后可以在循环内的任一语句中使用它，就好像正在使用 object 的该属性或 array 的该元素一样。 当在一个对象上迭代时，没有办法决定或控制把对象的成员赋给 variable 的次序，也就是按照object对象属性的顺序迭代。在数组内将按元素的次序执行迭代，也就是，0、1、2、......
+说明：在循环的每次迭代前，variable 被赋予 object 的下一个属性或 array 的下一个元素下标。然后可以在循环内的任一语句中使用它，就好像正在使用 object 的该属性或 array 的该元素一样。 当在一个对象上迭代时，没有办法决定或控制把对象的成员赋给 variable 的次序，也就是按照object对象属性的顺序迭代。在数组内将按元素的次序执行迭代，也就是，0、1、2、......<br><br>
+遍历对象
 
 
 		var obj = {
@@ -186,12 +188,104 @@ for...in...对应于一个对象的每个属性，或一个数组的每个元素
 		    console.log(typeof i)//String
 		    console.log(obj1[i])//依次输出3、4，并且类型是Number
 		}
+遍历数组
 
+		var arr = [1,2,3,4,5]
+		for (i in arr99){
+		    console.log(typeof i)//输出的下标全是字符串
+			console.log(arr[i])//
+		}
+
+###for...of...
+for...of...的用法和for...in...类似，不同的是for...of...迭代出来的是value，而for in 迭代出来的是key和下标。
+
+1. 推荐在循环对象属性的时候，使用for...in，在遍历数组的时候的时候使用for...of。
+2. for...in循环出的是key，for...of循环出的是value
+3. 注意，for...of是ES6新引入的特性，修复了ES5引入的for...in的不足
+4. **for...of不能循环普通的对象，需要通过和Object.keys()搭配使用**
+
+先看两者如何遍历数组的
+
+		let aArray = ['a',123,{a:'1',b:'2'}]
+		for(index in aArray){
+		    console.log(index)//输出值分别为0,1,2，字符串形式的下标
+		    console.log(`${aArray[index]}`);//输出a,123,[object Object]
+		}
+下面来看for of 
+
+		let aArray = ['a',123,{a:'1',b:'2'}]
+		for(value of aArray){
+		    console.log(value);//输出a，123，{ a: '1', b: '2' }
+		}
+由此可见for of 直接把对象的value值赋给了变量。
+
+现在再给数组aArray添加一个自定义的属性和方法
+
+			Array.prototype.test = function(){
+			    console.log("Hello")
+			}
+			aArray.name = "Tom"
+再次分别遍历，并输出打印key、value的值
+
+			//for in  情况
+			for(index in aArray){
+			    console.log(index)//输出值分别为0,1,2，name，test
+			    console.log(`${aArray[index]}`);//输出a,123,[object Object],Tom，和test方法体
+			}
+可见，for in会把自定义的属性和方法给遍历到
+			
+
+			for(value of aArray){
+		    	console.log(value);//输出a，123，{ a: '1', b: '2' }
+			}
+而for of 并不遍历自定义的属性和方法。<br><br>
+下面总结一下：
+
+1. for...of循环不会循环对象的key，只会循环出数组的value，因此for...of不能循环遍历普通对象,对普通对象的属性遍历推荐使用for...in
+2. 如果实在想用for...of来遍历普通对象的属性的话，可以通过和Object.keys()搭配使用，先获取对象的所有key的数组，然后遍历。如下面的例子：
+
+			var student={
+			    name:'wujunchuan',
+			    age:22,
+			    locate:{
+			        country:'china',
+			        city:'xiamen',
+			        school:'XMUT'
+			    }
+			}
+			for(var key of Object.keys(student)){
+			    //使用Object.keys()方法获取对象key的数组
+			    console.log(key+": "+student[key]);
+			}
+			
 
 #6. for循环的用方法
+
+
 #7. forEach()、for...in...与for()的区别
+1. forEach()函数只能遍历数组，不能遍历对象和字符串。
+2. for...in...可以遍历对象，数组和字符串。
+3. for可以遍历数组和字符串。
+4. 总的来说，for...in...是用来遍历普通对象的。for...of...是用来遍历数组的。forEach也是用来遍历数组的，不同的是for of 可以由break，continue，return来控制。
+
+在遍历数组时最好用原生的for循环，尽量不要用for in循环遍历，具体原因是：<br>
+for in 语句对数组对象进行遍历潜在的bug在于：如果原生Array类被其他的js脚本库进行了原型扩展（比如多加一个toJSON方法即Array.prototype.toJSON=xxxx)，那么用for in遍历扩展后的Array对象的逻辑将与遍历原生Array对象的逻辑发生差异。<br>
+举个简单的例子，
+
+		var x=[1]; 
+			for(var s in x){ 
+			alert(s); 
+		};  
+按常理，如果Array是原生js类，上面语句应该只执行一次alert方法，且s为数组的索引0。但是，如果Array类被扩展了，多了一个toJSON方法，那么上面的语句将执行两次alert，第一次s为索引0，第二次s为方法名'toJSON'。 
+
+如果你设计的代码的逻辑以原生Array类为基准，在某一天你的同事在页面里面引用了一个第三方的JS库，这个库又恰好扩展了Array类，结果将难以想象，很有可能原来的代码逻辑将不再成立。 
+
+关于这种扩展原生JS类的库，很有名的一个就是prototype.js，它给Array类扩展了很多方法诸如toJSON,each等等。
+
+
 #8.	List()方法
 #9. filter:筛选出数组中符合条件的项，组成新的数组
 #10. reduce：让数组中的前项和后项做某种运算，并累计最终值
 #11. every： 检测数组中的每一项是否符合条件
 #12. some： 检测数组中是否有某些项符合条件
+#13. JS中的...操作符
