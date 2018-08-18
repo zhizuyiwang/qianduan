@@ -1,2 +1,6 @@
 - 一次记住js的6个正则方法<br>[https://blog.csdn.net/vM199zkg3Y7150u5/article/details/79338818](https://blog.csdn.net/vM199zkg3Y7150u5/article/details/79338818 "一次记住js的6个正则方法")
+- 深入理解正则表达式<br>[https://www.cnblogs.com/lizhenlin/p/6654934.html](https://www.cnblogs.com/lizhenlin/p/6654934.html "深入理解正则表达式")
+- 常用js正则表达式大全<br>[https://www.cnblogs.com/my-effort/p/6306706.html](https://www.cnblogs.com/my-effort/p/6306706.html "常用js正则表达式大全")
+- js正则表达式详解-学习笔记<br>[https://www.cnblogs.com/angelatian/p/6807184.html](https://www.cnblogs.com/angelatian/p/6807184.html "js正则表达式详解-学习笔记")
+- 正则菜鸟<br>[http://www.runoob.com/regexp/regexp-metachar.html](http://www.runoob.com/regexp/regexp-metachar.html "正则菜鸟")
 - 廖雪峰的网站<br>[https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386832260566c26442c671fa489ebc6fe85badda25cd000](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001386832260566c26442c671fa489ebc6fe85badda25cd000 "廖雪峰的网站")

@@ -1,5 +1,44 @@
 #1.Object.keys方法之详解
+Object.keys方法是JavaScript中用于遍历对象属性的一个方法 。它传入的参数是一个对象，返回的是一个数组，数组中包含的是该对象所有的属性名。<br>
 
+		var cat= { 
+			name:’mini’, 
+			age:2, 
+			color:’yellow’, 
+			desc:”cute” 
+		}
+		console.log(Object.keys(cat)); // ["name", "age", "color", "desc"]
+
+1. 传入对象，返回属性名<br>
+
+			var obj = {'a':'123','b':'345'};
+			console.log(Object.keys(obj));  //['a','b']
+			
+			var obj1 = { 100: "a", 2: "b", 7: "c"};
+			console.log(Object.keys(obj1)); // console: ["2", "7", "100"]
+2. 传入字符串，返回索引<br>
+
+			var str = 'ab1234';
+			console.log(Object.keys(obj));  //[0,1,2,3,4,5]
+3. 构造函数 返回空数组或者属性名
+
+			 function Pasta(name, age, gender) {
+		            this.name = name;
+		            this.age = age;
+		            this.gender = gender;
+		            this.toString = function () {
+		                    return (this.name + ", " + this.age + ", " + this.gender);
+		            }
+		     }
+		
+		    console.log(Object.keys(Pasta)); //console: []
+		
+		    var spaghetti = new Pasta("Tom", 20, "male");
+		    console.log(Object.keys(spaghetti)); //console: ["name", "age", "gender", "toString"]
+4. 数组 返回索引
+
+			var arr = ["a", "b", "c"];
+    		console.log(Object.keys(arr)); // console: ["0", "1", "2"]
 #2. Map()方法
 map()是数组的一个方法，它创建一个新数组，其结果是该数组中的每个元素都调用一个提供的函数后返回的结果。map()里面的处理函数接受三个参数，分别指代当前元素、当前元素的索引、数组本身。<br>
 ###注意事项：
