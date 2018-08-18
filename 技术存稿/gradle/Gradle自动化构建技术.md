@@ -53,12 +53,35 @@ groovy特性
 		println KK
 		println KK.class//class org.codehaus.groovy.runtime.GStringImpl
 可以看到只要有扩展表达式的普通Java字符串定义的是Groovy的字符串实现类<br>	
-4、区别：单引号的字符串没有格式，三个单引号定义的字符串有格式，如：
+4、区别：**单引号的字符串没有格式，三个单引号定义的字符串有格式**，如：
+		
+		def name = '''
+		    锄禾日当午
+		    汗滴禾下锄
+		    谁知盘中餐
+		    粒粒皆辛苦  '''
+		println name
+		输出：
+			锄禾日当午
+			汗滴禾下锄
+			谁知盘中餐
+			粒粒皆辛苦  
+		
 	
-	
-- GString<br>
+- GString：就是普通java的String类型的字符串用两个引号加上扩展字符串的类型得到<br>
+如
+
+		def job = "Student"
+		def KK = "小明是 ${job}"
+
+ **字符串方法的讲解**<br><br>
+String方法的来源：
+
+- java.lang.String
+- DefaultGroovyMethods
+- StringGroovyMethods：分为普通类型的参数和闭包类型的参数
+
 1.常用三种定义方式<br>
-- 
 2.新增操作符<br>
 3.新增API讲解<br>
 
