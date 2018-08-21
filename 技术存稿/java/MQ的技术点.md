@@ -1,0 +1,4 @@
+- 到底什么时候该使用MQ？<br>[https://blog.csdn.net/xybelieve1990/article/details/70313216/](https://blog.csdn.net/xybelieve1990/article/details/70313216/ "到底什么时候该使用MQ？")
+- 我为什么要选择RabbitMQ ，RabbitMQ简介，各种MQ选型对比<br>[https://www.sojson.com/blog/48.html](https://www.sojson.com/blog/48.html "我为什么要选择RabbitMQ ，RabbitMQ简介，各种MQ选型对比")
+- 为什么会需要消息队列(MQ)？<br>[https://www.cnblogs.com/xuyatao/p/6864109.html](https://www.cnblogs.com/xuyatao/p/6864109.html "为什么会需要消息队列(MQ)？")
+- MQ之如何做到消息幂等<br>[https://www.jianshu.com/p/8b77d4583bab?utm_campaign](https://www.jianshu.com/p/8b77d4583bab?utm_campaign "MQ之如何做到消息幂等")

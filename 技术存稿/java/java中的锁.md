@@ -1,0 +1,3 @@
+- java 中的锁 -- 偏向锁、轻量级锁、自旋锁、重量级锁<br>[https://blog.csdn.net/zqz_zqz/article/details/70233767](https://blog.csdn.net/zqz_zqz/article/details/70233767 "java 中的锁 -- 偏向锁、轻量级锁、自旋锁、重量级锁")
+- 偏向锁，轻量级锁，自旋锁，重量级锁的详细介绍<br>[https://www.cnblogs.com/wade-luffy/p/5969418.html](https://www.cnblogs.com/wade-luffy/p/5969418.html "偏向锁，轻量级锁，自旋锁，重量级锁的详细介绍")
+- 虚拟机内的锁优化（偏向锁，轻量级锁，自旋锁，重量级锁）<br>[https://www.jianshu.com/p/5da9ef598604](https://www.jianshu.com/p/5da9ef598604 "虚拟机内的锁优化（偏向锁，轻量级锁，自旋锁，重量级锁）")
