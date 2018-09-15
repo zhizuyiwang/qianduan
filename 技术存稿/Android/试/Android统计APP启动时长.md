@@ -1,0 +1,3 @@
+- Android 开发之 App 启动时间统计<br>[https://blog.csdn.net/beyond_liyy/article/details/52273740](https://blog.csdn.net/beyond_liyy/article/details/52273740 "Android 开发之 App 启动时间统计")
+- Android之App启动时间的统计方法<br>[https://blog.csdn.net/zhangyongfeiyong/article/details/61925399](https://blog.csdn.net/zhangyongfeiyong/article/details/61925399 "Android之App启动时间的统计方法")
+- android 统计启动时长，标准<br>[https://blog.csdn.net/chunyuanlu/article/details/79782631](https://blog.csdn.net/chunyuanlu/article/details/79782631 "android 统计启动时长，标准")

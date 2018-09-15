@@ -1,0 +1,6 @@
+- Android动态布局小结<br>[https://www.jb51.net/article/77875.htm](https://www.jb51.net/article/77875.htm "Android动态布局小结")
+- Android 动态添加布局（layout）和控件（Widget）<br>[https://blog.csdn.net/mottled233/article/details/52171904](https://blog.csdn.net/mottled233/article/details/52171904 "Android 动态添加布局（layout）和控件（Widget）")
+- Android在布局中动态添加view的两种方法<br>[https://blog.csdn.net/a15838319826/article/details/70808771](https://blog.csdn.net/a15838319826/article/details/70808771 "Android在布局中动态添加view的两种方法")
+- 从LayoutParams说起到代码动态布局<br>[https://www.jianshu.com/p/0d6f753fdd92](https://www.jianshu.com/p/0d6f753fdd92 "从LayoutParams说起到代码动态布局")
+- Android 动态解析布局，实现制作多套主题<br>[https://blog.csdn.net/u012583459/article/details/47720023](https://blog.csdn.net/u012583459/article/details/47720023 "Android 动态解析布局，实现制作多套主题")
+- Android动态加载布局<br>[https://www.jb51.net/article/79061.htm](https://www.jb51.net/article/79061.htm "Android动态加载布局")

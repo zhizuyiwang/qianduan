@@ -1,0 +1,2 @@
+- Android优化方案之--Fragment的懒加载实现<br>[https://blog.csdn.net/csdn_mm/article/details/80417812](https://blog.csdn.net/csdn_mm/article/details/80417812 "Android优化方案之--Fragment的懒加载实现")
+- 封装篇——Fragment懒加载<br>[https://blog.csdn.net/sinat_15877283/article/details/51037987](https://blog.csdn.net/sinat_15877283/article/details/51037987 "封装篇——Fragment懒加载")

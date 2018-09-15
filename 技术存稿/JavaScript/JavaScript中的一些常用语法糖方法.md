@@ -213,6 +213,12 @@ map(): 创建一个新的数组，其中每一个元素由调用数组中的每�
 2. map()会分配内存空间存储新数组并返回，forEach()不会返回数据。
 3. forEach()允许callback更改原始数组的元素。map()返回新的数组。
 #5.	for...in...和for...of...的用法
+
+- JavaScript中in操作符(for..in)、Object.keys()和Object.getOwnPropertyNames()的区别<br>[https://www.cnblogs.com/goloving/p/7680572.html](https://www.cnblogs.com/goloving/p/7680572.html "JavaScript中in操作符(for..in)、Object.keys()和Object.getOwnPropertyNames()的区别")
+
+
+
+
 ###for...in...
 for...in...对应于一个对象的每个属性，或一个数组的每个元素，执行一个或多个语句。用来遍历数组和对象，基本用法： for (variable in [object | array]) 参数variable 必选项，是一个变量，它可以是 object 的任一属性名或 array 的任一下标，**注意，当是一个array的下标时，它是字符串类型，并且当是object的属性名时也是字符串。** object, array 可选项。要在其上遍历的对象或数组。<br><br>
 说明：在循环的每次迭代前，variable 被赋予 object 的下一个属性或 array 的下一个元素下标。然后可以在循环内的任一语句中使用它，就好像正在使用 object 的该属性或 array 的该元素一样。 当在一个对象上迭代时，没有办法决定或控制把对象的成员赋给 variable 的次序，也就是按照object对象属性的顺序迭代。在数组内将按元素的次序执行迭代，也就是，0、1、2、......<br><br>

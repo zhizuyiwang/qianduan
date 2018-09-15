@@ -1,0 +1,5 @@
+- MVC，MVP和MVVM的区别<br>[https://www.cnblogs.com/dubo-/p/5619077.html](https://www.cnblogs.com/dubo-/p/5619077.html "MVC，MVP和MVVM的区别")
+- 三层架构<br>[https://www.cnblogs.com/icebutterfly/p/7977033.html](https://www.cnblogs.com/icebutterfly/p/7977033.html "三层架构")
+- MVC、MVP、MVVM三种区别及适用场合<br>[https://blog.csdn.net/victoryzn/article/details/78392128](https://blog.csdn.net/victoryzn/article/details/78392128 "MVC、MVP、MVVM三种区别及适用场合")
+- Android App的设计架构：MVC,MVP,MVVM与架构经验谈<br>[https://www.tianmaying.com/tutorial/AndroidMVC](https://www.tianmaying.com/tutorial/AndroidMVC "Android App的设计架构：MVC,MVP,MVVM与架构经验谈")
+- Android App的架构设计：从VM、MVC、MVP到MVVM<br>[https://www.cnblogs.com/younghao/p/5897702.html](https://www.cnblogs.com/younghao/p/5897702.html "Android App的架构设计：从VM、MVC、MVP到MVVM")
