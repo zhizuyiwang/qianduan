@@ -1,0 +1,5 @@
+1. Android 的多渠道打包<br>[https://blog.csdn.net/qq_28595679/article/details/78911308](https://blog.csdn.net/qq_28595679/article/details/78911308 "Android 的多渠道打包")
+2. Android 新一代多渠道打包神器--转自腾讯Bugly<br>[https://blog.csdn.net/f2006116/article/details/71077067](https://blog.csdn.net/f2006116/article/details/71077067 "Android 新一代多渠道打包神器--转自腾讯Bugly")
+3. 加固＋多渠道打包＋Bugly统计＋热修复<br>[https://blog.csdn.net/qq_27818541/article/details/74200001](https://blog.csdn.net/qq_27818541/article/details/74200001 "加固＋多渠道打包＋Bugly统计＋热修复")
+4. Android用Gradle实现一行命令全自动混淆加固签名渠道包的生成<br>[https://blog.csdn.net/binbinqq86/article/details/81033796](https://blog.csdn.net/binbinqq86/article/details/81033796 "Android用Gradle实现一行命令全自动混淆加固签名渠道包的生成")
+5. PythonTool多渠道打包 (PythonTool的使用方法)<br>[https://blog.csdn.net/kdsde/article/details/82692829](https://blog.csdn.net/kdsde/article/details/82692829 "PythonTool多渠道打包 (PythonTool的使用方法)")

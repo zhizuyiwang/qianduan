@@ -4,3 +4,4 @@
 - 一种粗暴快速的Android全屏幕适配方案<br>[https://www.jianshu.com/p/b6b9bd1fba4d](https://www.jianshu.com/p/b6b9bd1fba4d "一种粗暴快速的Android全屏幕适配方案")
 - Android P 就快推送更新，可你还没有适配？给你几点适配建议<br>[https://mp.weixin.qq.com/s/tByFGL17VguLHl0-SrEbdQ](https://mp.weixin.qq.com/s/tByFGL17VguLHl0-SrEbdQ "Android P 就快推送更新，可你还没有适配？给你几点适配建议")
 - Android P 刘海屏适配全攻略<p>[https://mp.weixin.qq.com/s/Mcfy_cjcsbiqHUcP4yz-wQ](https://mp.weixin.qq.com/s/Mcfy_cjcsbiqHUcP4yz-wQ "Android P 刘海屏适配全攻略")
+- android兼容小米xiaomi刘海屏解决方案<br>[https://blog.csdn.net/djy1992/article/details/80688376](https://blog.csdn.net/djy1992/article/details/80688376)

@@ -1,0 +1,2 @@
+1. 转载：Java中的static关键字解析<br>[https://blog.csdn.net/weixin_39855497/article/details/80790079](https://blog.csdn.net/weixin_39855497/article/details/80790079 "转载：Java中的static关键字解析")
+2. 关键字 static 的作用是什么？<br>[https://blog.csdn.net/zm1_1zm/article/details/53968033](https://blog.csdn.net/zm1_1zm/article/details/53968033 "关键字 static 的作用是什么？")

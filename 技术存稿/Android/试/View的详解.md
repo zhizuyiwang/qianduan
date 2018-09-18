@@ -1,0 +1,1 @@
+1. 自定义View的详解<br>(极力推荐)[https://blog.csdn.net/lfdfhl/article/details/51656492](https://blog.csdn.net/lfdfhl/article/details/51656492 "自定义View系列教程08--滑动冲突的产生及其处理")

@@ -1,1 +1,2 @@
 - Google 跨平台方案 Flutter 从入门到实战<br>[https://mp.weixin.qq.com/s/NPUQmbfoXpUFKzzyanDD3A](https://mp.weixin.qq.com/s/NPUQmbfoXpUFKzzyanDD3A "Google 跨平台方案 Flutter 从入门到实战")
+- Flutter中文网<br>[https://flutterchina.club/get-started/install/](https://flutterchina.club/get-started/install/ "Flutter中文网")
