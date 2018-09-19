@@ -3,3 +3,4 @@
 - Java 8 Lambda实现原理分析<br>[https://blog.csdn.net/oncealong/article/details/51751788](https://blog.csdn.net/oncealong/article/details/51751788 "Java 8 Lambda实现原理分析")
 - Lambda表达式的前世今生<br>[https://www.cnblogs.com/gaochundong/p/way_to_lambda.html](https://www.cnblogs.com/gaochundong/p/way_to_lambda.html "Lambda表达式的前世今生")
 - lambda表达式详解<br>[https://www.cnblogs.com/LvLoveYuForever/p/6697982.html](https://www.cnblogs.com/LvLoveYuForever/p/6697982.html "lambda表达式详解")
+- 【闭包】你真的理解闭包和lambda表达式吗(立即推荐，必看)<br>[https://blog.csdn.net/u010386612/article/details/79875303](https://blog.csdn.net/u010386612/article/details/79875303 "【闭包】你真的理解闭包和lambda表达式吗")

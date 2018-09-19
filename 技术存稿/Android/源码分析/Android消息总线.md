@@ -1,0 +1,1 @@
+1. Android消息总线的演进之路：用LiveDataBus替代RxBus、EventBus<br>[https://tech.meituan.com/Android_LiveDataBus.html](https://tech.meituan.com/Android_LiveDataBus.html "Android消息总线的演进之路：用LiveDataBus替代RxBus、EventBus")

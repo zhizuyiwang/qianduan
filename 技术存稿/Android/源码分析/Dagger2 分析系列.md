@@ -1,0 +1,3 @@
+1. Dagger2 系列（一）Dagger2 入门简介<br>[https://www.jianshu.com/p/ac14ee65bf09](https://www.jianshu.com/p/ac14ee65bf09 "Dagger2 系列（一）Dagger2 入门简介")
+2. Dagger2 系列（三）Dagger2.Android使用详解<br>[https://www.jianshu.com/p/786d3cb4db1e](https://www.jianshu.com/p/786d3cb4db1e "Dagger2 系列（三）Dagger2.Android使用详解")
+3. Dagger2系列（五）和Dagger2学习如何自定义注解<br>[https://www.jianshu.com/p/e80a09868310](https://www.jianshu.com/p/e80a09868310 "Dagger2系列（五）和Dagger2学习如何自定义注解")

@@ -1,0 +1,1 @@
+1. 当MVP遇上Dagger2<br>[https://www.jianshu.com/p/49905f81123b](https://www.jianshu.com/p/49905f81123b "当MVP遇上Dagger2")

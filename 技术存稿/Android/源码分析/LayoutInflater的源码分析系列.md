@@ -1,0 +1,2 @@
+1. 深入了解LayoutInflater<br>[https://blog.csdn.net/u010386612/article/details/49818501](https://blog.csdn.net/u010386612/article/details/49818501 "深入了解LayoutInflater")
+2. Android LayoutInflater原理分析，带你一步步深入了解View(一)<br>[https://blog.csdn.net/guolin_blog/article/details/12921889](https://blog.csdn.net/guolin_blog/article/details/12921889 "Android LayoutInflater原理分析，带你一步步深入了解View(一)")
