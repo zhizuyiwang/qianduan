@@ -1,0 +1,4 @@
+1. Android 的assets文件资源与raw文件资源读取<br>[https://blog.csdn.net/zpf8861/article/details/34504183](https://blog.csdn.net/zpf8861/article/details/34504183 "Android 的assets文件资源与raw文件资源读取")
+2. android中读取原始(Raw)资源<br>[https://blog.csdn.net/oQiHaoGongYuan/article/details/47977773](https://blog.csdn.net/oQiHaoGongYuan/article/details/47977773 "android中读取原始(Raw)资源")
+3. 使用MediaPlayer播放项目res/raw和res/assets下的音频文件<br>[https://blog.csdn.net/qq_31028313/article/details/52702665](https://blog.csdn.net/qq_31028313/article/details/52702665 "使用MediaPlayer播放项目res/raw和res/assets下的音频文件")
+4. Android项目中的assets和raw<br>[https://blog.csdn.net/u010597493/article/details/54375887](https://blog.csdn.net/u010597493/article/details/54375887 "Android项目中的assets和raw")

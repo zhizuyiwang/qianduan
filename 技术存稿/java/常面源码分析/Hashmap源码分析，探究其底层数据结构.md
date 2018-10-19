@@ -1,0 +1,3 @@
+1.  面试必考的HashMap概念<br>[https://mp.weixin.qq.com/s/8Pu9AEfDqiOKJ7Tr87U21g](https://mp.weixin.qq.com/s/8Pu9AEfDqiOKJ7Tr87U21g "面试必考的HashMap概念")
+2. HashMap实现原理和源码分析(极力推荐)<br>[https://blog.csdn.net/u010386612/article/details/80302777](https://blog.csdn.net/u010386612/article/details/80302777 "HashMap实现原理和源码分析")
+3. HashMap源码分析与实现<br>[https://blog.csdn.net/sdksdk0/article/details/79299286](https://blog.csdn.net/sdksdk0/article/details/79299286 "HashMap源码分析与实现")

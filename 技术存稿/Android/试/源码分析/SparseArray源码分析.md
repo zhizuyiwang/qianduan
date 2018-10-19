@@ -4,3 +4,4 @@
 4. SparseArray与HashMap相比优缺点<br>[https://blog.csdn.net/qwer123qwerz/article/details/79345524](https://blog.csdn.net/qwer123qwerz/article/details/79345524 "SparseArray与HashMap相比优缺点")
 5. Android常见优化方式-SparseArray<br>[https://blog.csdn.net/moter/article/details/80279809](https://blog.csdn.net/moter/article/details/80279809 "Android常见优化方式-SparseArray")
 6. SparseArray的使用及实现原理<br>[https://blog.csdn.net/qq1263292336/article/details/78871751](https://blog.csdn.net/qq1263292336/article/details/78871751 "SparseArray的使用及实现原理")
+7. SparseArray详解<br>[https://blog.csdn.net/duyuanye/article/details/50619830](https://blog.csdn.net/duyuanye/article/details/50619830 "SparseArray详解")

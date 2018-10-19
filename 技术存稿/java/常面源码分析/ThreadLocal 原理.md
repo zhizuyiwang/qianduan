@@ -7,3 +7,4 @@
 - ThreadLocal原理解析（1）：数据存取<br>[https://www.jianshu.com/p/a31f6d889647](https://www.jianshu.com/p/a31f6d889647 "ThreadLocal原理解析（1）：数据存取")
 - ThreadLocal原理及使用示例<br>[https://www.cnblogs.com/nullzx/p/7553538.html](https://www.cnblogs.com/nullzx/p/7553538.html "ThreadLocal原理及使用示例")
 - threadlocal原理及常用应用场景<br>[https://blog.csdn.net/sonny543/article/details/51336457](https://blog.csdn.net/sonny543/article/details/51336457 "threadlocal原理及常用应用场景")
+- Android系统分析之ThreadLocal<br>[https://blog.csdn.net/chenliguan/article/details/81266669](https://blog.csdn.net/chenliguan/article/details/81266669 "Android系统分析之ThreadLocal")
