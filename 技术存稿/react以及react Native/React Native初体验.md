@@ -1,4 +1,27 @@
-
+#expo开发App
+1. NervJS<br>[https://github.com/NervJS](https://github.com/NervJS "NervJS")
+2. React Native第三方组件库汇总<br>[https://blog.csdn.net/xiangzhihong8/article/details/81812418](https://blog.csdn.net/xiangzhihong8/article/details/81812418 "React Native第三方组件库汇总")
+3. React Native常用组件(持续更新...)<br>[https://www.jianshu.com/p/bd810785d3d6](https://www.jianshu.com/p/bd810785d3d6 "React Native常用组件(持续更新...)")
+4. react-native-wechat微信组件的使用<br>[https://www.jianshu.com/p/3f424cccb888](https://www.jianshu.com/p/3f424cccb888 "react-native-wechat微信组件的使用")
+5. 给所有开发者的React Native详细入门指南<br>[https://www.jianshu.com/p/fa0874be0827](https://www.jianshu.com/p/fa0874be0827 "给所有开发者的React Native详细入门指南")
+#第三方库
+1. react-native 侧滑组件 react-native-swipe-list-view<br>[https://blog.csdn.net/u011272795/article/details/76586316](https://blog.csdn.net/u011272795/article/details/76586316 "react-native 侧滑组件 react-native-swipe-list-view")
+2. react-native 轮播图 ——react-native-swiper使用<br>[https://blog.csdn.net/u011272795/article/details/72669479](https://blog.csdn.net/u011272795/article/details/72669479 "react-native 轮播图 ——react-native-swiper使用")
+3. react-native-swiper 让人无语的坑<br>[https://blog.csdn.net/hanjiyu/article/details/78754744](https://blog.csdn.net/hanjiyu/article/details/78754744 "react-native-swiper 让人无语的坑")
+4. React-Native react-native-swiper(ES6)轮播图<br>[https://www.jianshu.com/p/18998d248062](https://www.jianshu.com/p/18998d248062 "React-Native react-native-swiper(ES6)轮播图")
+5. React Native高性能大列表组件<br>[https://www.jianshu.com/p/4cf8b044f172](https://www.jianshu.com/p/4cf8b044f172 "React Native高性能大列表组件")
+6. React Native使用SectionList打造城市选择列表，包含分组的跳转<br>[https://www.jianshu.com/p/09dd60d7b34f](https://www.jianshu.com/p/09dd60d7b34f "React Native使用SectionList打造城市选择列表，包含分组的跳转")
+7. React-Native 拖拽列表，滑动删除。<br>[https://www.jianshu.com/p/ae3929bff9a8](https://www.jianshu.com/p/ae3929bff9a8 "React-Native 拖拽列表，滑动删除。")
+8. react native 带索引的城市列表<br>[https://www.jianshu.com/p/a3b9f786b80a](https://www.jianshu.com/p/a3b9f786b80a "react native 带索引的城市列表")
+9. React Native 实现瀑布流列表页,分组+组内横向的列表页.....<br>[https://blog.csdn.net/spicyShrimp/article/details/80609373](https://blog.csdn.net/spicyShrimp/article/details/80609373 "React Native 实现瀑布流列表页,分组+组内横向的列表页.....")
+10. React Native搭建简单的项目框架React Navigation + redux<br>[https://blog.csdn.net/spicyShrimp/article/details/80309792](https://blog.csdn.net/spicyShrimp/article/details/80309792 "React Native搭建简单的项目框架React Navigation + redux")
+11. 百思不得姐仿写 react native 项目<br>[https://github.com/spicyShrimp/Misses](https://github.com/spicyShrimp/Misses "百思不得姐仿写 react native 项目")
+12. react-native-refresh-list-view<br>[https://github.com/huanxsd/react-native-refresh-list-view](https://github.com/huanxsd/react-native-refresh-list-view "react-native-refresh-list-view")
+13. React Native（下拉刷新，加载更多）超简单实现！<br>[https://blog.csdn.net/vv_bug/article/details/61922114](https://blog.csdn.net/vv_bug/article/details/61922114 "React Native（下拉刷新，加载更多）超简单实现！")
+14. react-native封装原生下拉刷新组件<br>[https://blog.csdn.net/u014041033/article/details/79132219](https://blog.csdn.net/u014041033/article/details/79132219 "react-native封装原生下拉刷新组件")
+15. React-Native 上拉加载下拉刷新<br>[https://blog.csdn.net/mffandxx/article/details/80701424](https://blog.csdn.net/mffandxx/article/details/80701424 "React-Native 上拉加载下拉刷新")
+16. react-native flatlist 的进阶使用 （头尾，间隔组件和滚动事件）<br>[https://blog.csdn.net/u011272795/article/details/74359305](https://blog.csdn.net/u011272795/article/details/74359305 "react-native flatlist 的进阶使用 （头尾，间隔组件和滚动事件）")
+17. react-native-extra-dimensions-android<br>[https://github.com/Sunhat/react-native-extra-dimensions-android](https://github.com/Sunhat/react-native-extra-dimensions-android "react-native-extra-dimensions-android")
 #学习实战
 1. 大神react native<br>[https://github.com/sunnylqm](https://github.com/sunnylqm "大神")
 2. shadowsocks-manager<br>[https://github.com/shadowsocks/shadowsocks-manager](https://github.com/shadowsocks/shadowsocks-manager "shadowsocks-manager")
@@ -10,6 +33,15 @@
 8. 开源高完成度的React native App<br>[https://bbs.reactnative.cn/topic/4993/%E5%BC%80%E6%BA%90%E9%AB%98%E5%AE%8C%E6%88%90%E5%BA%A6%E7%9A%84react-native-app](https://bbs.reactnative.cn/topic/4993/%E5%BC%80%E6%BA%90%E9%AB%98%E5%AE%8C%E6%88%90%E5%BA%A6%E7%9A%84react-native-app "开源高完成度的React native App")
 9. 基于react-native开发的电影App<br>[https://bbs.reactnative.cn/topic/1191/%E5%9F%BA%E4%BA%8Ereact-native%E5%BC%80%E5%8F%91%E7%9A%84%E7%94%B5%E5%BD%B1app](https://bbs.reactnative.cn/topic/1191/%E5%9F%BA%E4%BA%8Ereact-native%E5%BC%80%E5%8F%91%E7%9A%84%E7%94%B5%E5%BD%B1app "基于react-native开发的电影App")
 10. React Native - demo 适合初学者实践<br>[http://react-china.org/t/react-native-demo/23643](http://react-china.org/t/react-native-demo/23643 "React Native - demo 适合初学者实践")
+#React Native的一些易错点知识
+1. React Native 单位详细说明<br>[https://blog.csdn.net/rnzuozuo/article/details/53427456](https://blog.csdn.net/rnzuozuo/article/details/53427456 "React Native 单位详细说明")
+
+			在React Native 中 PixelRatio.get() 是获取屏幕密度的.
+
+			80 dpi 上 PixelRatio.get()=0.5  1dp=0.5px
+			160 dpi 上 PixelRatio.get()=1  1dp=1px
+			320dpi 上PixelRatio.get()=2 1dp=2px
+
 
 #开发环境配置
 1. 在设备上运行<br>[https://reactnative.cn/docs/0.51/running-on-device-android.html](https://reactnative.cn/docs/0.51/running-on-device-android.html "在设备上运行")
@@ -35,10 +67,13 @@
 4. React Native纠错集锦<br>[https://www.jianshu.com/p/dfa8d21589de](https://www.jianshu.com/p/dfa8d21589de "React Native纠错集锦")
 5. 0.53版本按钮错误<br>[https://blog.csdn.net/qq_24382363/article/details/83057921](https://blog.csdn.net/qq_24382363/article/details/83057921 "0.53版本按钮错误")
 6. React-Native之undefined is not an object<br>[https://blog.csdn.net/u013000152/article/details/78257877](https://blog.csdn.net/u013000152/article/details/78257877 "React-Native之undefined is not an object")
+7. 解决：React Native 中SectionList 使用中出现警告问题：VirtualizedList: missing keys for items, make sure to specify<br>[https://blog.csdn.net/zww986736788/article/details/80660072](https://blog.csdn.net/zww986736788/article/details/80660072 "解决：React Native 中SectionList 使用中出现警告问题：VirtualizedList: missing keys for items, make sure to specify")
+8. React Native开发错误警告处理总结（已解决 ！持续更新）<br>[https://www.jianshu.com/p/98c8f2a970eb](https://www.jianshu.com/p/98c8f2a970eb "React Native开发错误警告处理总结（已解决 ！持续更新）")
 #react native采坑实践
 1. 我在集成ReactNative过程中踩过的那些坑<br>[https://blog.csdn.net/guxiao1201/article/details/50899115](https://blog.csdn.net/guxiao1201/article/details/50899115 "我在集成ReactNative过程中踩过的那些坑")
 2. 那些React-Native踩过的的坑<br>[https://www.cnblogs.com/lmf-techniques/p/6524662.html](https://www.cnblogs.com/lmf-techniques/p/6524662.html "那些React-Native踩过的的坑")
 3. React-Native 真的是移动开发的未来吗<br>[https://segmentfault.com/a/1190000015409849](https://segmentfault.com/a/1190000015409849 "React-Native 真的是移动开发的未来吗")
 4. ReactNative 打的release包闪退之——undefined is not an object (evaluating 'a.View.propTypes.style')<br>[https://stackoverflow.com/questions/45499017/undefined-is-not-an-object-evaluating-reactnative-viewproptypes-style](https://stackoverflow.com/questions/45499017/undefined-is-not-an-object-evaluating-reactnative-viewproptypes-style "ReactNative 打的release包闪退之——undefined is not an object (evaluating 'a.View.propTypes.style')？")
-5. 
 
+#react native的源码分析
+1. React Native是怎么在Android上跑起来的<br>[https://blog.csdn.net/Mr_Wrong1/article/details/77882749](https://blog.csdn.net/Mr_Wrong1/article/details/77882749 "React Native是怎么在Android上跑起来的")

@@ -11,6 +11,9 @@
 3. Android动画：献上一份详细 & 全面的动画知识学习攻略<br>[https://www.jianshu.com/p/53759778284a](https://www.jianshu.com/p/53759778284a "Android动画：献上一份详细 & 全面的动画知识学习攻略")
 4. Android 属性动画：这是一篇很详细的 属性动画 总结&攻略<br>[https://www.jianshu.com/p/2412d00a0ce4](https://www.jianshu.com/p/2412d00a0ce4 "Android 属性动画：这是一篇很详细的 属性动画 总结&攻略")
 5. Android 一共有多少种动画？准确告诉你！<br>[https://mp.weixin.qq.com/s/LUbfLKlKGsfUEdcHkRgyKg](https://mp.weixin.qq.com/s/LUbfLKlKGsfUEdcHkRgyKg "Android 一共有多少种动画？准确告诉你！")
+6. Android高阶转场动画-ShareElement完全攻略<br>[https://blog.csdn.net/yellowcath/article/details/83038106](https://blog.csdn.net/yellowcath/article/details/83038106 "Android高阶转场动画-ShareElement完全攻略")
+7. **来一份Android动画全家桶**<br>[https://juejin.im/post/5b002a96f265da0b873ac44a](https://juejin.im/post/5b002a96f265da0b873ac44a "来一份Android动画全家桶")
+8. Android酷炫动画效果<br>[https://segmentfault.com/a/1190000012490938](https://segmentfault.com/a/1190000012490938 "Android酷炫动画效果")
 
 #粒子动画
 1. Android超强大的粒子动画库，猫饼点赞动画完美还原，实战第一篇<br>[https://blog.csdn.net/mymolit/article/details/81015112](https://blog.csdn.net/mymolit/article/details/81015112 "Android超强大的粒子动画库，猫饼点赞动画完美还原，实战第一篇")
@@ -27,6 +30,7 @@
 2. Android 打造专属的下拉刷新 加载更多<br>[https://www.jianshu.com/p/e46f72ce69c4](https://www.jianshu.com/p/e46f72ce69c4 "Android 打造专属的下拉刷新 加载更多")
 3. Android 自定义View 字母索引条<br>[https://www.jianshu.com/p/d0d3ae674de8](https://www.jianshu.com/p/d0d3ae674de8 "Android 自定义View 字母索引条")
 4. Android 自定义View 跳动的水果和文字<br>[https://www.jianshu.com/p/b655981e6ef9](https://www.jianshu.com/p/b655981e6ef9 "Android 自定义View 跳动的水果和文字")
+5. Android仿抖音点击效果<br>[https://blog.csdn.net/ibelieveyouwxy/article/details/80417979](https://blog.csdn.net/ibelieveyouwxy/article/details/80417979 "Android仿抖音点击效果")
 #自定义Android水波纹动画效果
 
 1. Android 水波纹显示进度效果<br>[https://blog.csdn.net/u014452224/article/details/55193542](https://blog.csdn.net/u014452224/article/details/55193542 "Android 水波纹显示进度效果")
