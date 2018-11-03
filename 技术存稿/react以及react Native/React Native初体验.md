@@ -1,9 +1,14 @@
+
+###RN几种脚手架工具的使用和对比（react-native-cli、create-react-native-app、exp）
+[https://juejin.im/post/5ae43adaf265da0b851c9d6e](https://juejin.im/post/5ae43adaf265da0b851c9d6e "RN几种脚手架工具的使用和对比（react-native-cli、create-react-native-app、exp）")
 #expo开发App
 1. NervJS<br>[https://github.com/NervJS](https://github.com/NervJS "NervJS")
 2. React Native第三方组件库汇总<br>[https://blog.csdn.net/xiangzhihong8/article/details/81812418](https://blog.csdn.net/xiangzhihong8/article/details/81812418 "React Native第三方组件库汇总")
 3. React Native常用组件(持续更新...)<br>[https://www.jianshu.com/p/bd810785d3d6](https://www.jianshu.com/p/bd810785d3d6 "React Native常用组件(持续更新...)")
 4. react-native-wechat微信组件的使用<br>[https://www.jianshu.com/p/3f424cccb888](https://www.jianshu.com/p/3f424cccb888 "react-native-wechat微信组件的使用")
 5. 给所有开发者的React Native详细入门指南<br>[https://www.jianshu.com/p/fa0874be0827](https://www.jianshu.com/p/fa0874be0827 "给所有开发者的React Native详细入门指南")
+6. expo/xde<br>[https://github.com/expo/xde/releases](https://github.com/expo/xde/releases "expo/xde")
+7. Genymotion的安装和破解<br>[https://www.52pojie.cn/thread-711768-1-1.html](https://www.52pojie.cn/thread-711768-1-1.html "Genymotion")
 #第三方库
 1. react-native 侧滑组件 react-native-swipe-list-view<br>[https://blog.csdn.net/u011272795/article/details/76586316](https://blog.csdn.net/u011272795/article/details/76586316 "react-native 侧滑组件 react-native-swipe-list-view")
 2. react-native 轮播图 ——react-native-swiper使用<br>[https://blog.csdn.net/u011272795/article/details/72669479](https://blog.csdn.net/u011272795/article/details/72669479 "react-native 轮播图 ——react-native-swiper使用")
