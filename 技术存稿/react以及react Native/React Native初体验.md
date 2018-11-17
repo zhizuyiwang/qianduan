@@ -9,6 +9,8 @@
 5. 给所有开发者的React Native详细入门指南<br>[https://www.jianshu.com/p/fa0874be0827](https://www.jianshu.com/p/fa0874be0827 "给所有开发者的React Native详细入门指南")
 6. expo/xde<br>[https://github.com/expo/xde/releases](https://github.com/expo/xde/releases "expo/xde")
 7. Genymotion的安装和破解<br>[https://www.52pojie.cn/thread-711768-1-1.html](https://www.52pojie.cn/thread-711768-1-1.html "Genymotion")
+8. 2018年，你應該知道的11個React Native組件庫<br>[https://hk.saowen.com/a/c7d252211d658c397c910215bbda06406d964fc3764e2c88b8123e5a149fd2fd](https://hk.saowen.com/a/c7d252211d658c397c910215bbda06406d964fc3764e2c88b8123e5a149fd2fd "2018年，你應該知道的11個React Native組件庫")
+9. 2018 年，你应该知道的 11 个 React Native 组件库<br>[https://www.infoq.cn/article/2018%2F08%2F18-11-react-native-componetlib](https://www.infoq.cn/article/2018%2F08%2F18-11-react-native-componetlib "2018 年，你应该知道的 11 个 React Native 组件库")
 #第三方库
 1. react-native 侧滑组件 react-native-swipe-list-view<br>[https://blog.csdn.net/u011272795/article/details/76586316](https://blog.csdn.net/u011272795/article/details/76586316 "react-native 侧滑组件 react-native-swipe-list-view")
 2. react-native 轮播图 ——react-native-swiper使用<br>[https://blog.csdn.net/u011272795/article/details/72669479](https://blog.csdn.net/u011272795/article/details/72669479 "react-native 轮播图 ——react-native-swiper使用")
@@ -75,10 +77,12 @@
 7. 解决：React Native 中SectionList 使用中出现警告问题：VirtualizedList: missing keys for items, make sure to specify<br>[https://blog.csdn.net/zww986736788/article/details/80660072](https://blog.csdn.net/zww986736788/article/details/80660072 "解决：React Native 中SectionList 使用中出现警告问题：VirtualizedList: missing keys for items, make sure to specify")
 8. React Native开发错误警告处理总结（已解决 ！持续更新）<br>[https://www.jianshu.com/p/98c8f2a970eb](https://www.jianshu.com/p/98c8f2a970eb "React Native开发错误警告处理总结（已解决 ！持续更新）")
 #react native采坑实践
+1. ReactNative踩坑之旅: Unable to resolve module 和 Error: Plugin<br>[https://blog.csdn.net/j550341130/article/details/81027700](https://blog.csdn.net/j550341130/article/details/81027700 "ReactNative踩坑之旅: Unable to resolve module 和 Error: Plugin")
 1. 我在集成ReactNative过程中踩过的那些坑<br>[https://blog.csdn.net/guxiao1201/article/details/50899115](https://blog.csdn.net/guxiao1201/article/details/50899115 "我在集成ReactNative过程中踩过的那些坑")
 2. 那些React-Native踩过的的坑<br>[https://www.cnblogs.com/lmf-techniques/p/6524662.html](https://www.cnblogs.com/lmf-techniques/p/6524662.html "那些React-Native踩过的的坑")
 3. React-Native 真的是移动开发的未来吗<br>[https://segmentfault.com/a/1190000015409849](https://segmentfault.com/a/1190000015409849 "React-Native 真的是移动开发的未来吗")
 4. ReactNative 打的release包闪退之——undefined is not an object (evaluating 'a.View.propTypes.style')<br>[https://stackoverflow.com/questions/45499017/undefined-is-not-an-object-evaluating-reactnative-viewproptypes-style](https://stackoverflow.com/questions/45499017/undefined-is-not-an-object-evaluating-reactnative-viewproptypes-style "ReactNative 打的release包闪退之——undefined is not an object (evaluating 'a.View.propTypes.style')？")
+5. Airbnb: React Native 从选择到放弃<br>[https://www.v2ex.com/t/464548](https://www.v2ex.com/t/464548 "Airbnb: React Native 从选择到放弃")
 
 #react native的源码分析
 1. React Native是怎么在Android上跑起来的<br>[https://blog.csdn.net/Mr_Wrong1/article/details/77882749](https://blog.csdn.net/Mr_Wrong1/article/details/77882749 "React Native是怎么在Android上跑起来的")
