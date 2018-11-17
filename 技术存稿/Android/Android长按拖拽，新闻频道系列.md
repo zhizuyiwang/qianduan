@@ -1,0 +1,1 @@
+1. Android 高仿 频道管理----网易、今日头条、腾讯视频 （可以拖动的GridView）附源码DEMO<br>[https://blog.csdn.net/vipzjyno1/article/details/25005851](https://blog.csdn.net/vipzjyno1/article/details/25005851 "Android 高仿 频道管理----网易、今日头条、腾讯视频 （可以拖动的GridView）附源码DEMO")
