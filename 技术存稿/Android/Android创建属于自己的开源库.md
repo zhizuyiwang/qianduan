@@ -2,3 +2,4 @@
 - 发布开源库到 JitPack.io + jcenter<br>[https://blog.csdn.net/ss1168805219/article/details/77679677](https://blog.csdn.net/ss1168805219/article/details/77679677 "发布开源库到 JitPack.io + jcenter")
 - 发布开源库的踩坑经历:jitpack.io<br>[https://blog.csdn.net/qq_33505109/article/details/81136825](https://blog.csdn.net/qq_33505109/article/details/81136825 "发布开源库的踩坑经历:jitpack.io")
 - 代码上传到jcenter及填坑<br>[https://blog.csdn.net/csdn_mm/article/details/80082832](https://blog.csdn.net/csdn_mm/article/details/80082832 "代码上传到jcenter及填坑")
+- 写自己的开源库，发布到 JitPack.io<br>[http://icodeyou.com/2015/12/23/2015-12-23-AndroidLibraryJitPack/](http://icodeyou.com/2015/12/23/2015-12-23-AndroidLibraryJitPack/ "写自己的开源库，发布到 JitPack.io")

@@ -1,0 +1,4 @@
+1. 侧滑菜单+圆形揭示动画<br>[https://www.jianshu.com/p/bbb653078188](https://www.jianshu.com/p/bbb653078188 "侧滑菜单+圆形揭示动画")
+2. Material Design Reveal effect(揭示效果)<br>[https://www.jianshu.com/p/c373011b1784](https://www.jianshu.com/p/c373011b1784 "Material Design Reveal effect(揭示效果)")
+3. Android Material Design动画 Reveal Effect | 揭示效果<br>[https://blog.csdn.net/lengxuechiwu1314/article/details/73190003](https://blog.csdn.net/lengxuechiwu1314/article/details/73190003 "Android Material Design动画 Reveal Effect | 揭示效果")
+4. 揭示效果布局，可以指定2个子布局，以圆形揭示效果切换选中状态 <br>[https://github.com/goweii/RevealLayout](https://github.com/goweii/RevealLayout "揭示效果布局，可以指定2个子布局，以圆形揭示效果切换选中状态 ")

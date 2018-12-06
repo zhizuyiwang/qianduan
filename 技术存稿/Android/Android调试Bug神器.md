@@ -1,0 +1,1 @@
+1.  Execution failed for task ':app:compileDebugJavaWithJavac'<br>[https://blog.csdn.net/qq_35599978/article/details/80028278](https://blog.csdn.net/qq_35599978/article/details/80028278 " Execution failed for task ':app:compileDebugJavaWithJavac'")

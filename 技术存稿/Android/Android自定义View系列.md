@@ -6,3 +6,5 @@
 5. UI效果集(阿曌)<br>[https://blog.csdn.net/xieyupeng520/article/category/5591985](https://blog.csdn.net/xieyupeng520/article/category/5591985 "UI效果集")
 #经典自定义源码
 1. 2018实用开源项目汇总<br>[https://blog.csdn.net/weixin_41101173/article/details/82943283](https://blog.csdn.net/weixin_41101173/article/details/82943283 "2018实用开源项目汇总")
+#Canvas系列
+1. Android中Canvas绘图之PorterDuffXfermode使用及工作原理详解<br>[https://blog.csdn.net/iispring/article/details/50472485](https://blog.csdn.net/iispring/article/details/50472485 "Android中Canvas绘图之PorterDuffXfermode使用及工作原理详解")

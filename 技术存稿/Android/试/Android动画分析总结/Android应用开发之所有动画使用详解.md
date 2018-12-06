@@ -1,5 +1,22 @@
 #所有的文章都很好，推荐全看
+#Android酷炫动画效果<br>[https://segmentfault.com/a/1190000012490938](https://segmentfault.com/a/1190000012490938 "Android酷炫动画效果")
+#大神博客
+1. 看完这7篇Android动画文章，以后产品管你叫大哥<br>[https://mp.weixin.qq.com/s/TT8tkmNvwyypJb9Lp-Yv9A](https://mp.weixin.qq.com/s/TT8tkmNvwyypJb9Lp-Yv9A)
+2. Android共享元素场景切换动画的实现<br>[https://mp.weixin.qq.com/s/UB9YQf-r67UrL9YhKF_0Rg](https://mp.weixin.qq.com/s/UB9YQf-r67UrL9YhKF_0Rg "Android共享元素场景切换动画的实现")
+3. Android属性动画高级用法<br>[https://mp.weixin.qq.com/s/OR8mCJRcgk4NobDD1EkZnw](https://mp.weixin.qq.com/s/OR8mCJRcgk4NobDD1EkZnw "Android属性动画高级用法")
+4. Android动画Animation运行原理解析<br>[https://mp.weixin.qq.com/s/uqFErwA5gBGrzW5GoKbnBA](https://mp.weixin.qq.com/s/uqFErwA5gBGrzW5GoKbnBA "Android动画Animation运行原理解析")
+5. 在Android中实现复杂动画（附完整代码）<br>[https://mp.weixin.qq.com/s/MJleXQ6kZuZWOSgYlS9G-w](https://mp.weixin.qq.com/s/MJleXQ6kZuZWOSgYlS9G-w "在Android中实现复杂动画（附完整代码）")
+6. Android-Apng动画的播放<br>[https://mp.weixin.qq.com/s/f-FoyChCeS_0F0rEFgysaA](https://mp.weixin.qq.com/s/f-FoyChCeS_0F0rEFgysaA "Android-Apng动画的播放")
+7. Android 有近10种动画，你都知道吗？<br>[https://mp.weixin.qq.com/s/7EkXNY50jFmgAeusM-reZw](https://mp.weixin.qq.com/s/7EkXNY50jFmgAeusM-reZw "Android 有近10种动画，你都知道吗？")
+8. Lottie -- 轻松实现动态加载直播礼物动画<br>[https://mp.weixin.qq.com/s/58wX7cWiab-AXFnw3l1pcQ](https://mp.weixin.qq.com/s/58wX7cWiab-AXFnw3l1pcQ "Lottie -- 轻松实现动态加载直播礼物动画")
+9. 自定义炫酷动画之旅<br>[https://mp.weixin.qq.com/s/wYJTy9K86fPeTjFERXP7QA](https://mp.weixin.qq.com/s/wYJTy9K86fPeTjFERXP7QA "自定义炫酷动画之旅")
+10. Material Design 超炫过渡动画实现及流程分析<br>[https://mp.weixin.qq.com/s/5B_txYTpOSXwMaQb4OikJg](https://mp.weixin.qq.com/s/5B_txYTpOSXwMaQb4OikJg "Material Design 超炫过渡动画实现及流程分析")
+11. 【Android】 给我一个Path，还你一个酷炫动画<br>[https://mp.weixin.qq.com/s/r9O4VrFg7J8qERwtBBF7lw](https://mp.weixin.qq.com/s/r9O4VrFg7J8qERwtBBF7lw "【Android】 给我一个Path，还你一个酷炫动画")
+12. Canvas玩出新特效—一个炫酷优美的薄荷Loading动画<br>[https://mp.weixin.qq.com/s/YZEp38NV4esrWsT4RPRrrw](https://mp.weixin.qq.com/s/YZEp38NV4esrWsT4RPRrrw "Canvas玩出新特效—一个炫酷优美的薄荷Loading动画")
+13. Android实现购物车页面及购物车效果(点击动画)<br>[https://mp.weixin.qq.com/s/Muz8vDSWTXHk6lnH-OI4CA](https://mp.weixin.qq.com/s/Muz8vDSWTXHk6lnH-OI4CA "Android实现购物车页面及购物车效果(点击动画)")
+14. Android 自定义录音、播放动画View，让你的录音浪起来<br>[https://mp.weixin.qq.com/s/lJM3Qukvu9S6u-1kErUp0Q](https://mp.weixin.qq.com/s/lJM3Qukvu9S6u-1kErUp0Q "Android 自定义录音、播放动画View，让你的录音浪起来")
 #动画源码分析
+
 1. 分析Android属性动画源码的执行过程<br>[https://www.jianshu.com/p/47f51e87e3ed](https://www.jianshu.com/p/47f51e87e3ed "分析Android属性动画源码的执行过程")
 2. Android动画原理分析<br>[https://www.cnblogs.com/kross/p/4087780.html](https://www.cnblogs.com/kross/p/4087780.html "Android动画原理分析")
 3. Android属性动画完全解析(上)，初识属性动画的基本用法<br>[https://blog.csdn.net/guolin_blog/article/details/43536355](https://blog.csdn.net/guolin_blog/article/details/43536355 "Android属性动画完全解析(上)，初识属性动画的基本用法")
@@ -14,6 +31,17 @@
 6. Android高阶转场动画-ShareElement完全攻略<br>[https://blog.csdn.net/yellowcath/article/details/83038106](https://blog.csdn.net/yellowcath/article/details/83038106 "Android高阶转场动画-ShareElement完全攻略")
 7. **来一份Android动画全家桶**<br>[https://juejin.im/post/5b002a96f265da0b873ac44a](https://juejin.im/post/5b002a96f265da0b873ac44a "来一份Android动画全家桶")
 8. Android酷炫动画效果<br>[https://segmentfault.com/a/1190000012490938](https://segmentfault.com/a/1190000012490938 "Android酷炫动画效果")
+#View翻转动画
+1. Android 点击View实现前后翻转动画<br>[https://www.jianshu.com/p/93cbc4d3daa1](https://www.jianshu.com/p/93cbc4d3daa1 "Android 点击View实现前后翻转动画")
+2. Android 属性动画 实现view翻转 旋转 平移 拉伸 透明度 背景颜色变换<br>[https://blog.csdn.net/baidu_34139251/article/details/75050584](https://blog.csdn.net/baidu_34139251/article/details/75050584 "Android 属性动画 实现view翻转 旋转 平移 拉伸 透明度 背景颜色变换")
+#Animation和Animator的区别<br>
+[https://blog.csdn.net/u011043551/article/details/65937966](https://blog.csdn.net/u011043551/article/details/65937966 "Animation和Animator的简单区别")
+
+#视图动画（补间动画）的详解
+1. Android动画之RotateAnimation使用<br>[https://blog.csdn.net/denglxsc/article/details/51181344](https://blog.csdn.net/denglxsc/article/details/51181344 "Android动画之RotateAnimation使用")
+#属性动画的详解
+#SVG动画详解
+1. 美工死不瞑目系列之SVG推锅技巧<br>[https://www.jianshu.com/p/ad9b7382aecb](https://www.jianshu.com/p/ad9b7382aecb "美工死不瞑目系列之SVG推锅技巧")
 
 #粒子动画
 1. Android超强大的粒子动画库，猫饼点赞动画完美还原，实战第一篇<br>[https://blog.csdn.net/mymolit/article/details/81015112](https://blog.csdn.net/mymolit/article/details/81015112 "Android超强大的粒子动画库，猫饼点赞动画完美还原，实战第一篇")
@@ -24,6 +52,7 @@
 
 #贝塞尔曲线与DrawPath的用法
 1. Android drawPath实现QQ拖拽泡泡<br>[https://www.jianshu.com/p/887b1ef3362d](https://www.jianshu.com/p/887b1ef3362d "Android drawPath实现QQ拖拽泡泡")
+2. 今天要讲的是Path和他的童养媳PathMeasure<br>[https://www.jianshu.com/p/d234a4cd5af8](https://www.jianshu.com/p/d234a4cd5af8 "今天要讲的是Path和他的童养媳PathMeasure")
 
 #自定义View实现动画
 1. Android 自定义View UC下拉刷新效果(一)<br>[https://www.jianshu.com/p/98bb533afa9c](https://www.jianshu.com/p/98bb533afa9c "Android 自定义View UC下拉刷新效果(一)")
