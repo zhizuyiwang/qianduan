@@ -42,6 +42,7 @@
 #属性动画的详解
 #SVG动画详解
 1. 美工死不瞑目系列之SVG推锅技巧<br>[https://www.jianshu.com/p/ad9b7382aecb](https://www.jianshu.com/p/ad9b7382aecb "美工死不瞑目系列之SVG推锅技巧")
+#视差效果
 
 #粒子动画
 1. Android超强大的粒子动画库，猫饼点赞动画完美还原，实战第一篇<br>[https://blog.csdn.net/mymolit/article/details/81015112](https://blog.csdn.net/mymolit/article/details/81015112 "Android超强大的粒子动画库，猫饼点赞动画完美还原，实战第一篇")

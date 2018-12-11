@@ -86,6 +86,12 @@
 ###七、各种进度条
 1. react-native-percentage-circle<br>[https://github.com/JackPu/react-native-percentage-circle](https://github.com/JackPu/react-native-percentage-circle "react-native-percentage-circle")
 2. 使用React Native制作圆形加载条<br>[https://www.jackpu.com/shi-yong-react-nativezhi-zuo-yuan-xing-jia-zai-tiao/](https://www.jackpu.com/shi-yong-react-nativezhi-zuo-yuan-xing-jia-zai-tiao/ "使用React Native制作圆形加载条")
+
+#第三方的ReactNative UI组件库
+1. React Native Elements<br>[https://react-native-training.github.io/react-native-elements/](https://react-native-training.github.io/react-native-elements/ "React Native Elements")
+2. beeshell —— 开源的 React Native 组件库<br>[https://juejin.im/entry/5bb027a2e51d450e7a2502ab](https://juejin.im/entry/5bb027a2e51d450e7a2502ab "beeshell —— 开源的 React Native 组件库")
+3. ant-design-mobile<br>[https://mobile.ant.design/components/flex-cn/](https://mobile.ant.design/components/flex-cn/ "ant-design-mobile")
+4. NativeBase<br>[https://docs.nativebase.io/docs/GetStarted.html](https://docs.nativebase.io/docs/GetStarted.html "NativeBase")
 #强烈推荐
 1. React Native 常用第三方组件,最全<br>[http://www.cnblogs.com/piaobodewu/p/9939334.html](http://www.cnblogs.com/piaobodewu/p/9939334.html "React Native 常用第三方组件")
 2. React-native值得收藏的控件大全<br>[https://www.jianshu.com/p/1ae9014aafaa](https://www.jianshu.com/p/1ae9014aafaa "React-native值得收藏的控件大全")

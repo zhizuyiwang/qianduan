@@ -1,3 +1,5 @@
 1. Python3.x+Fiddler抓取APP数据<br>[https://segmentfault.com/a/1190000015571256](https://segmentfault.com/a/1190000015571256 "Python3.x+Fiddler抓取APP数据")
 2. Fiddler教程<br>[https://www.jianshu.com/p/99b6b4cd273c](https://www.jianshu.com/p/99b6b4cd273c "Fiddler教程")
 3. Fiddler工具使用<br>[https://www.imooc.com/learn/37](https://www.imooc.com/learn/37 "Fiddler工具使用")
+4. fiddler几种功能强大的用法（一）<br>[https://www.cnblogs.com/chenshaoping/p/5785010.html](https://www.cnblogs.com/chenshaoping/p/5785010.html "fiddler几种功能强大的用法（一）")
+5. Fiddler4抓包工具使用教程一<br>[https://www.cnblogs.com/GreenLeaves/p/6971452.html](https://www.cnblogs.com/GreenLeaves/p/6971452.html "Fiddler4抓包工具使用教程一")
