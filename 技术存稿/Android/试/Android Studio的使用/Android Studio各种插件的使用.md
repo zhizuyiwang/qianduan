@@ -1,0 +1,2 @@
+#Git插件
+1. 或许是介绍Android Studio使用Git最详细的文章<br>[https://www.jianshu.com/p/6c5c359bde02](https://www.jianshu.com/p/6c5c359bde02 "或许是介绍Android Studio使用Git最详细的文章")

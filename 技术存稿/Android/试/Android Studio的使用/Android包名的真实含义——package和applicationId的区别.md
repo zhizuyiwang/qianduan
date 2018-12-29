@@ -1,0 +1,3 @@
+1. apk的包名到底是谁来决定(package和applicationId）<br>[http://www.voidcn.com/article/p-opfuqcrg-bnz.html](http://www.voidcn.com/article/p-opfuqcrg-bnz.html "apk的包名到底是谁来决定(package和applicationId）")
+2. Android 应用的唯一标识<br>[https://juejin.im/post/5a3cf360f265da430406d059](https://juejin.im/post/5a3cf360f265da430406d059 "Android 应用的唯一标识")
+3. Android applicationId与包名的区别<br>[https://blog.csdn.net/jinrall/article/details/53465403](https://blog.csdn.net/jinrall/article/details/53465403 "Android applicationId与包名的区别")

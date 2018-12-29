@@ -25,3 +25,4 @@
 25. 2018.9月React-Native优质开源项目<br>[https://coderminer.com/blog/post/7635edc7388ab594b94cfb58c7c25e1f](https://coderminer.com/blog/post/7635edc7388ab594b94cfb58c7c25e1f "2018.9月React-Native优质开源项目")
 26. Android 25种开源炫酷UI动画框架<br>[https://blog.csdn.net/CSDN2497242041/article/details/79250688](https://blog.csdn.net/CSDN2497242041/article/details/79250688 "Android 25种开源炫酷UI动画框架")
 27. android仿微信红包动画、Kotlin综合应用、Xposed模块、炫酷下拉视觉、UC浏览器滑动动画等源码<br>[https://www.jishux.com/p/442a7d6607e24b3d](https://www.jishux.com/p/442a7d6607e24b3d "android仿微信红包动画、Kotlin综合应用、Xposed模块、炫酷下拉视觉、UC浏览器滑动动画等源码")
+28. Dart的资源汇总<br>[https://juejin.im/post/5b41fd016fb9a04fa6718a98](https://juejin.im/post/5b41fd016fb9a04fa6718a98 "Dart的资源汇总")

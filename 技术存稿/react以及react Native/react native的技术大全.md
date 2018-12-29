@@ -86,7 +86,9 @@
 ###七、各种进度条
 1. react-native-percentage-circle<br>[https://github.com/JackPu/react-native-percentage-circle](https://github.com/JackPu/react-native-percentage-circle "react-native-percentage-circle")
 2. 使用React Native制作圆形加载条<br>[https://www.jackpu.com/shi-yong-react-nativezhi-zuo-yuan-xing-jia-zai-tiao/](https://www.jackpu.com/shi-yong-react-nativezhi-zuo-yuan-xing-jia-zai-tiao/ "使用React Native制作圆形加载条")
-
+###八、react-native-wechat微信登录分享、支付
+1. react native微信登录授权，以及一些错误<br>[https://blog.csdn.net/LJFPHP/article/details/79052820](https://blog.csdn.net/LJFPHP/article/details/79052820 "react native微信登录授权，以及一些错误")、
+2. React Native微信支付开发爬坑之旅<br>[https://juejin.im/post/5a38b03e5188257d1718a1c3](https://juejin.im/post/5a38b03e5188257d1718a1c3 "React Native微信支付开发爬坑之旅")
 #第三方的ReactNative UI组件库
 1. React Native Elements<br>[https://react-native-training.github.io/react-native-elements/](https://react-native-training.github.io/react-native-elements/ "React Native Elements")
 2. beeshell —— 开源的 React Native 组件库<br>[https://juejin.im/entry/5bb027a2e51d450e7a2502ab](https://juejin.im/entry/5bb027a2e51d450e7a2502ab "beeshell —— 开源的 React Native 组件库")

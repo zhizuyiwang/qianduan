@@ -76,6 +76,10 @@
 6. React-Native之undefined is not an object<br>[https://blog.csdn.net/u013000152/article/details/78257877](https://blog.csdn.net/u013000152/article/details/78257877 "React-Native之undefined is not an object")
 7. 解决：React Native 中SectionList 使用中出现警告问题：VirtualizedList: missing keys for items, make sure to specify<br>[https://blog.csdn.net/zww986736788/article/details/80660072](https://blog.csdn.net/zww986736788/article/details/80660072 "解决：React Native 中SectionList 使用中出现警告问题：VirtualizedList: missing keys for items, make sure to specify")
 8. React Native开发错误警告处理总结（已解决 ！持续更新）<br>[https://www.jianshu.com/p/98c8f2a970eb](https://www.jianshu.com/p/98c8f2a970eb "React Native开发错误警告处理总结（已解决 ！持续更新）")
+9. Unable to resolve module 'AccessibilityInfo'<br>[http://www.cnblogs.com/blog-zy/p/9355529.html](http://www.cnblogs.com/blog-zy/p/9355529.html "Unable to resolve module 'AccessibilityInfo' ")
+10. react native生成APP报错：You have not accepted the license agreements of the following SDK components:<br>[https://blog.csdn.net/LJFPHP/article/details/78992658](https://blog.csdn.net/LJFPHP/article/details/78992658 "react native生成APP报错：You have not accepted the license agreements of the following SDK components:")
+11. react native与webview通信跳转页面报错：Cannot read property 'setNativeProps' of undefiend<br>[https://blog.csdn.net/LJFPHP/article/details/78927425](https://blog.csdn.net/LJFPHP/article/details/78927425 "react native与webview通信跳转页面报错：Cannot read property 'setNativeProps' of undefiend")
+ 
 #react native采坑实践
 1. ReactNative踩坑之旅: Unable to resolve module 和 Error: Plugin<br>[https://blog.csdn.net/j550341130/article/details/81027700](https://blog.csdn.net/j550341130/article/details/81027700 "ReactNative踩坑之旅: Unable to resolve module 和 Error: Plugin")
 1. 我在集成ReactNative过程中踩过的那些坑<br>[https://blog.csdn.net/guxiao1201/article/details/50899115](https://blog.csdn.net/guxiao1201/article/details/50899115 "我在集成ReactNative过程中踩过的那些坑")

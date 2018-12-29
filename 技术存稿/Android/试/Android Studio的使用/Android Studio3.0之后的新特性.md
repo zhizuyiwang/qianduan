@@ -2,6 +2,8 @@
 2. 老项目迁移AndroidStudio3.0带你踩完所有坑~<br>[https://www.jianshu.com/p/7105878fd79c](https://www.jianshu.com/p/7105878fd79c "老项目迁移AndroidStudio3.0带你踩完所有坑~")
 3. AndroidStudio3.0 Android Profiler分析器(cpu memory network 分析器)<br>[https://blog.csdn.net/niubitianping/article/details/72617864](https://blog.csdn.net/niubitianping/article/details/72617864 "AndroidStudio3.0 Android Profiler分析器(cpu memory network 分析器)")
 4. Android studio 3.x集成butterknife 8.8.1 集成 使用 及集成时错误解决<BR>[https://blog.csdn.net/xuwb123xuwb/article/details/80229798](https://blog.csdn.net/xuwb123xuwb/article/details/80229798 "Android studio 3.x集成butterknife 8.8.1 集成 使用 及集成时错误解决")
+5. 手把手带你体验Android Studio 3.0的新功能<br>[https://mp.weixin.qq.com/s/2XmVG4mKEDX6-bvZ0vvmcw](https://mp.weixin.qq.com/s/2XmVG4mKEDX6-bvZ0vvmcw "手把手带你体验Android Studio 3.0的新功能")
+6. android studio3.0升级问题记录<br>[https://blog.csdn.net/daoxiaomianzi/article/details/78364821](https://blog.csdn.net/daoxiaomianzi/article/details/78364821 "android studio3.0升级问题记录")
 
 #我的总结
 1. 支持java8,可以移除jackOptions
@@ -65,5 +67,43 @@ Android Plugin For Gradle 3.0.0 默认自动添加插件所需要用到的最小
 6. BuildTool最低版本异常<br>
 		
 		AS3.0最低支持的BuildTools插件是26.0.2版本
+
+7. gradle打包错误
+
+		自定义apk名称代码报错（Cannot set the value of read-only property ‘outputFile’ ）
+		Error:(56, 0) Cannot set the value of read-only property ‘outputFile’ for 
+		ApkVariantOutputImpl_Decorated{apkData=Main{type=MAIN, fullName=debug, filters=[]}} of type 
+		com.android.build.gradle.internal.api.ApkVariantOutputImpl.
+
+
+		解决方案：在app的buide.gradle修改3.0之前输出自定义apk名字的代码，代码如下：
+
+		//            applicationVariants.all { variant ->
+		//                variant.outputs.each { output ->
+		//                    def outputFile = output.outputFile
+		//                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+		//                        def fileName = "小袋快借${defaultConfig.versionName}_${releaseTime()}_${variant.productFlavors[0].name}.apk"
+		//                        output.outputFile = new File(outputFile.parent, fileName)
+		//                    }
+		//                }
+		//            }
+
+		            android.applicationVariants.all { variant ->
+		                variant.outputs.all {
+		                    outputFileName = "小袋快借${defaultConfig.versionName}_
+							${releaseTime()}_${variant.productFlavors[0].name}.apk"
+		                }
+		            }
+
+8. AAPT2 编译报错 AAPT2 error 
 		
+		报错：Error:java.util.concurrent.ExecutionException: 
+			 com.android.tools.aapt2.Aapt2Exception: AAPT2 error: check logs for details 
+
+		解决：在gradle.properties中关闭APPT2 编译
+		     android.enableAapt2=false
+
+
+			
+
 
