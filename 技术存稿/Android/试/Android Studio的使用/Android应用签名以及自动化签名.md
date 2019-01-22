@@ -42,7 +42,7 @@
 
 
 			
-###分理出来的Android包下的debug.keystore签名文件
+###分理出来的Android包下的debug.keystore签名文件，密码是android
 		
 		密钥库类型: JKS
 		密钥库提供方: SUN

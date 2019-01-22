@@ -48,6 +48,122 @@
 		android:left="1.0dip" 左边
 		android:right="1.0dip" 右边
 		android:top="0.0dip" 上面
+###7） 总结一下shape的用法
+
+	<?xml version="1.0" encoding="utf-8"?>
+	<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:innerRadius="15dp"
+	    android:innerRadiusRatio="2"
+	    android:shape="ring"
+	    android:thickness="10dp"
+	    android:thicknessRatio="2"
+	    android:useLevel="false">
+	
+	    <!-- 填充 -->
+	    <solid android:color="@color/red" />
+	
+	    <!-- 圆角 -->
+	    <corners
+	        android:bottomLeftRadius="5dp"
+	        android:bottomRightRadius="5dp"
+	        android:radius="10dp"
+	        android:topLeftRadius="5dp"
+	        android:topRightRadius="5dp" />
+	
+	    <!-- 渐变 -->
+	    <gradient
+	        android:angle="45"
+	        android:centerColor="@color/red"
+	        android:centerX="0"
+	        android:centerY="0"
+	        android:endColor="@color/black"
+	        android:gradientRadius="90"
+	        android:startColor="@color/blue"
+	        android:type="radial"
+	        android:useLevel="false" />
+	
+	    <!-- 间隔 -->
+	    <padding
+	        android:bottom="5dp"
+	        android:left="5dp"
+	        android:right="5dp"
+	        android:top="5dp" />
+	
+	    <!-- 大小 -->
+	    <size
+	        android:width="75dp"
+	        android:height="45dp" />
+	
+	    <!-- 描边 -->
+	    <stroke
+	        android:width="1dp"
+	        android:color="@color/blue"
+	        android:dashGap="2dp"
+	        android:dashWidth="0dp" />
+	</shape>
+
+下面看看各个标签属性的作用
+
+		
+		solid：填充 
+			1. android:color：填充的颜色。
+	
+		
+		corners：圆角 
+			1. android:radius：设置四个角的圆角半径。 
+			2. android:bottomLeftRadius：设置左下角的圆角半径。 
+			3. android:bottomRightRadius：设置右下角的圆角半径 。 
+			4. android:topLeftRadius：设置左上角的圆角半径 。 
+			5. android:topRightRadius：设置右上角的圆角半径 。 
+		注：如果同时设置五个属性，则radius属性无效。
+
+		
+		gradient：渐变 
+			1. android:startColor：起始渐变颜色。 
+			2. android:centerColor：中间渐变颜色。 
+			3. android:endColor：结束渐变颜色。 
+			4. android:centerX：渐变中心X的相对位置，放射渐变时才有效，范围为0～1，默认为0.5，表示在正中间。 
+			5. android:centerY：渐变中心Y的相对位置，放射渐变时才有效，范围为0～1，默认为0.5，表示在正中间。 
+			6. android:type：渐变类型，有三种：radial放射渐变；linear线性渐变，默认为此渐变模式；sweep扫描性渐变。 
+			7. android:angle：渐变角度，必须是45的整数倍（包括0），0表示从左到右，90表示从下到上。 
+			8. android:gradientRadius：渐变的半径，只有当渐变类型为radial时才能使用。 
+			9. android:useLevel：设为false时才有渐变效果，使用LevelListDrawable时要设置为true。
+			
+
+			
+		padding：内间距 
+			1. android:top：距离顶部内间距。 
+			2. android:bottom：距离底部内间距。 
+			3. android:left：距离左边内间距。 
+			4. android:right：距离右边内间距。
+			
+
+		size：大小 
+			1. android:width：宽度。 
+			2. android:height：高度。
+		
+
+		stroke：描边 
+			1. android:width：设置边框的宽度 。 
+			2. android:color：设置边框的颜色。 
+			3. android:dashGap：设置虚线的间隔宽度。 
+			4. android:dashWidth：设置虚线的宽度。 
+			注：dashWidth和dashGap属性只要其中一个设置为0dp，则边框为实线边框。
+		
+
+		shape：形状，默认为矩形 
+			1. android:shape="ring"：环形。 
+			2. android:shape="line"：线性形。 
+			3. android:shape="oval"：椭圆形。 
+			4. android:shape="rectangle"：矩形。 
+			
+		如果设置为android:shape="ring"时还可以设置一下属性： 
+			1. android:innerRadius：尺寸，内环的半径。 
+			2. android:innerRadiusRatio：浮点型，以环的宽度比率来表示内环的半径，默认为3，表示内环半径为环的宽度除以3，该值会被innerRadius覆盖。 
+			3. android:thickness：尺寸，环的厚度。 
+			4. android:thicknessRatio：浮点型，以环的宽度比率来表示环的厚度，默认为9，表示环的厚度为环的宽度除以9，该值会被thickness覆盖。 
+			5. android:useLevel：boolean值，一般设置为false，否则可能环形无法显示，只有作为LevelListDrawable使用时才设为true。
+
 #layer-list的介绍
 其实说到shape就不得不提layer-list，这两个标签通常是一块使用的。layer-list标签可包含多个shape标签，用来表示此xml文件定义的是含有多个几何形状的一个含多层的形状。
 #level-list的介绍
